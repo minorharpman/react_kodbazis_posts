@@ -1,7 +1,8 @@
-# Free Bird Programozó Képző Cirkusz
+# Free Bird Programozó Képző Cirkusz - React Js videók
 
 
-Kódbázis "Építsünk appot" Posts videó gyakorlás
+Kódbázis "Építsünk appot" Posts videó - gyakorlás:
+
 [https://kodbazis.hu/react-kurzus/epitsunk-appot](https://kodbazis.hu/react-kurzus/epitsunk-appot)
 
 
