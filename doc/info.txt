@@ -1,0 +1,9 @@
+
+Kódbázis "Építsünk appot" Posts videó gyakorlás
+https://kodbazis.hu/react-kurzus/epitsunk-appot
+
+npx create-react-app react_kodbazis_posts
+
+npm install bootstrap
+
+cd npx react_kodbazis_posts
