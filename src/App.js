@@ -5,6 +5,8 @@ import ListaKomponens from "./components/listakomponens";
 import FormKomponens from "./components/formkomponens";
 
 // fetch: https://reactjs.org/docs/faq-ajax.html
+//Free to use fake online REST API for testing and prototyping.
+//http://jsonplaceholder.typicode.com/
 
 function App() {
 
@@ -12,26 +14,29 @@ function App() {
   //https://maxrozen.com/how-to-use-react-usestate-hook-initial-value/
   const [tipus, setTipus] = React.useState("comments");
 
- 
-  /*React.useEffect(() => {
+ /*
+ React.useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/comments").then((res) => (res.ok ? res.json() : [])).then((tartalom) => { 
       setItems(tartalom);
     });
 
-  }, []);*/
+  }, []);
+  */
 
+ 
   React.useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/" + tipus).then((res) => (res.ok ? res.json() : [])).then((tartalom) => {
       setItems(tartalom);
     });
 
   }, [tipus]);
+ 
 
 
   return (
     <div className="container">
       <div className="row m-5 border p-5">
-        <FormKomponens setTipus={setTipus} />
+       <FormKomponens setTipus={setTipus} /> 
         <ListaKomponens elemek={items} />
       </div>
 
