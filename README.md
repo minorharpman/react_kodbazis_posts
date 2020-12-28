@@ -9,7 +9,8 @@ Kódbázis "Építsünk appot" Posts videó - gyakorlás:
 
  A Youtube videó linkje:
 
-Minden videóhoz külön repot, projektet hozok létre, hogy a kód megegyezzen a videóanyagával.
+ [https://www.youtube.com/watch?v=urrChYf7XeQ](https://www.youtube.com/watch?v=urrChYf7XeQ)
+
 
 
 Console parancsok:
